@@ -1,0 +1,26 @@
+
+
+.branches-container {
+    padding: 20px;
+  }
+  
+  .branch-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .branch {
+    background-color: #b5eef1;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .branch h3 {
+    margin-top: 0;
+  }
+  
+  .branch p {
+    margin: 5px 0;
+  }
+  

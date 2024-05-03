@@ -1,0 +1,43 @@
+
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center; /* Items are centered vertically */
+    padding: 10px 20px; /* Add padding for spacing */
+    
+  }
+  
+  .slider {
+
+    width: 100%;
+  }
+  
+  .content {
+    width: 100%;
+  }
+
+  .prev,
+.next {
+  position: absolute;
+  top: 18%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+/* .prev {
+  left: 1000px;
+}
+
+.next {
+  right: 100px;
+} */
+  
+/*  */

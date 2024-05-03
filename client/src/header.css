@@ -1,0 +1,53 @@
+/* header.css */
+
+/* Header styles */
+header {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Items are spaced evenly along the main axis */
+  align-items: center; /* Items are centered vertically */
+  padding: 10px 20px; /* Add padding for spacing */
+  background-color: #97a4b1; /* Set background color */
+  border-radius: 20px 0px 20px 0px;
+  font-size: larger;
+  font-style: oblique;
+  border-bottom: 4px solid blue;
+  
+
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold; /* Apply bold font weight */
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  
+}
+
+nav ul li {
+  display: inline-block; /* Display menu items horizontally */
+  margin-left: 15px; /* Add spacing between menu items */
+ 
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin for the first menu item */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+  padding: 5px 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Apply border radius for rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  color: rgb(69, 2, 131);
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Change background color on hover */
+}
